@@ -135,18 +135,23 @@
 							<figure class="card card-product-grid">
 								<div class="img-wrap">
 
-									<a href=""><img src="{{product.images.url}}"></a>
+									<a href="{% url 'product_detail' product.category.slug product.slug %}"><img src="{{product.images.url}}"></a>
 
 								</div> <!-- img-wrap.// -->
 								<figcaption class="info-wrap">
 									<div class="fix-height">
-										<a href="" class="title">{{product.product_name}}</a>
+										<a href="{% url 'product_detail' product.category.slug product.slug %}" class="title">{{product.product_name}}</a>
 										<div class="price-wrap mt-2">
 											<span class="price">₹ {{product.price}}</span>
 											{% comment %} <del class="price-old">$1980</del> {% endcomment %}
 										</div> <!-- price-wrap.// -->
 									</div>
-									<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+									{% if product.stock <= 0 %}
+										<h5 class='text-danger'> Out Of Stock</h5>
+									{% else %}
+										<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+									{% endif %}
+
 								</figcaption>
 							</figure>
 						</div> <!-- col.// -->
