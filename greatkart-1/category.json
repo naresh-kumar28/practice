@@ -1,0 +1,52 @@
+[
+{
+    "model": "category.category",
+    "pk": 1,
+    "fields": {
+        "category_name": "Shirts",
+        "slug": "shirts",
+        "description": "This is demo shirts category",
+        "cat_image": "uploads/2026-06-24/1.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 2,
+    "fields": {
+        "category_name": "T-shirts",
+        "slug": "t-shirts",
+        "description": "",
+        "cat_image": "uploads/2026-06-24/t-shirts.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 3,
+    "fields": {
+        "category_name": "Shoes",
+        "slug": "shoes",
+        "description": "",
+        "cat_image": "uploads/2026-06-24/shoes.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 4,
+    "fields": {
+        "category_name": "Jeans",
+        "slug": "jeans",
+        "description": "",
+        "cat_image": "uploads/2026-06-24/jeans.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 5,
+    "fields": {
+        "category_name": "Jackets",
+        "slug": "jackets",
+        "description": "",
+        "cat_image": "uploads/2026-06-24/jacket.jpg"
+    }
+}
+]
