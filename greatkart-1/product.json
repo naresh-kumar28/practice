@@ -1,0 +1,162 @@
+[
+{
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+        "product_name": "ATX jeans",
+        "slug": "atx-jeans",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 1599,
+        "images": "products/2026-06-24/ATX_jeans.jpg",
+        "stock": 297,
+        "is_available": true,
+        "category": 4,
+        "created_at": "2026-06-24T06:48:10.249Z",
+        "modified_date": "2026-06-24T06:48:10.249Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+        "product_name": "Marvi jeans",
+        "slug": "marvi-jeans",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 1299,
+        "images": "products/2026-06-24/Marvi_jeans.jpg",
+        "stock": 154,
+        "is_available": true,
+        "category": 4,
+        "created_at": "2026-06-24T06:48:38.338Z",
+        "modified_date": "2026-06-24T06:48:38.338Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+        "product_name": "Blue Shirt",
+        "slug": "blue-shirt",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 699,
+        "images": "products/2026-06-24/Blue_Shirt.jpg",
+        "stock": 95,
+        "is_available": true,
+        "category": 1,
+        "created_at": "2026-06-24T06:49:23.570Z",
+        "modified_date": "2026-06-24T06:49:23.570Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+        "product_name": "Wrangler Shirt",
+        "slug": "wrangler-shirt",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 599,
+        "images": "products/2026-06-24/Wringler_Shirts.jpg",
+        "stock": 55,
+        "is_available": true,
+        "category": 1,
+        "created_at": "2026-06-24T06:50:01.238Z",
+        "modified_date": "2026-06-24T06:50:01.238Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+        "product_name": "white T-shirt",
+        "slug": "white-t-shirt",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 699,
+        "images": "products/2026-06-24/white_T-shirt.jpg",
+        "stock": 25,
+        "is_available": true,
+        "category": 2,
+        "created_at": "2026-06-24T06:51:14.538Z",
+        "modified_date": "2026-06-24T06:51:14.538Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+        "product_name": "black t-shirt",
+        "slug": "black-t-shirt",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 766,
+        "images": "products/2026-06-24/black_t-shirt.jpg",
+        "stock": 95,
+        "is_available": true,
+        "category": 2,
+        "created_at": "2026-06-24T06:51:49.962Z",
+        "modified_date": "2026-06-24T06:51:49.962Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+        "product_name": "denim jacket",
+        "slug": "denim-jacket",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 2999,
+        "images": "products/2026-06-24/denim_jacket.jpg",
+        "stock": 50,
+        "is_available": true,
+        "category": 5,
+        "created_at": "2026-06-24T06:52:41.604Z",
+        "modified_date": "2026-06-24T06:52:41.604Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+        "product_name": "leather jacket",
+        "slug": "leather-jacket",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 3998,
+        "images": "products/2026-06-24/leather_jacket.jpg",
+        "stock": 75,
+        "is_available": true,
+        "category": 5,
+        "created_at": "2026-06-24T06:53:18.117Z",
+        "modified_date": "2026-06-24T06:53:18.117Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+        "product_name": "Sports Shoe",
+        "slug": "sports-shoe",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 1299,
+        "images": "products/2026-06-24/sports_shoes.jpg",
+        "stock": 65,
+        "is_available": true,
+        "category": 3,
+        "created_at": "2026-06-24T06:53:52.596Z",
+        "modified_date": "2026-06-24T06:53:52.597Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+        "product_name": "Puma Ferrari Shoes",
+        "slug": "puma-ferrari-shoes",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
+        "price": 1598,
+        "images": "products/2026-06-24/school_shoes.jpg",
+        "stock": 0,
+        "is_available": true,
+        "category": 3,
+        "created_at": "2026-06-24T06:54:38.161Z",
+        "modified_date": "2026-06-24T12:16:55.567Z"
+    }
+}
+]
