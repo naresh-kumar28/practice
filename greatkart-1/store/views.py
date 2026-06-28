@@ -17,3 +17,14 @@ def store(request, category_slug=None):
     }
 
     return render(request, 'store/store.html',context)
+
+
+def product_detail(request, category_slug, product_slug):
+
+    product = Product.objects.get(category__slug=category_slug, slug=product_slug, is_available=True)
+
+    context = {
+        'product' : product,
+    }
+
+    return render(request, 'store/product_detail.html',context)
